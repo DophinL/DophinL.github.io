@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   
-  <title><![CDATA[Dophin]]></title>
+  <title><![CDATA[Dophin's Blog]]></title>
   <subtitle><![CDATA[子标题]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.dophin.me//"/>
