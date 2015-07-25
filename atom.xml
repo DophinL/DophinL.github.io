@@ -4,9 +4,9 @@
   <title><![CDATA[Dophin]]></title>
   <subtitle><![CDATA[子标题]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com//"/>
+  <link href="http://www.dophin.me//"/>
   <updated>2015-07-23T15:46:55.000Z</updated>
-  <id>http://yoursite.com//</id>
+  <id>http://www.dophin.me//</id>
   
   <author>
     <name><![CDATA[Dophin]]></name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title><![CDATA[goo]]></title>
-    <link href="http://yoursite.com/2015/07/23/goo/"/>
-    <id>http://yoursite.com/2015/07/23/goo/</id>
+    <link href="http://www.dophin.me/2015/07/23/goo/"/>
+    <id>http://www.dophin.me/2015/07/23/goo/</id>
     <published>2015-07-23T08:45:07.000Z</published>
     <updated>2015-07-23T15:46:55.000Z</updated>
     <content type="html"><![CDATA[<img src="/2015/07/23/goo/normal.jpeg" alt="400 400" title="400 400">
@@ -28,14 +28,14 @@
 <figure class="highlight javascript"><table><tr><td class="gutter"><pr]]>
     </summary>
     
-      <category term="IF" scheme="http://yoursite.com/tags/IF/"/>
+      <category term="IF" scheme="http://www.dophin.me/tags/IF/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[put]]></title>
-    <link href="http://yoursite.com/2015/07/23/put/"/>
-    <id>http://yoursite.com/2015/07/23/put/</id>
+    <link href="http://www.dophin.me/2015/07/23/put/"/>
+    <id>http://www.dophin.me/2015/07/23/put/</id>
     <published>2015-07-23T07:19:18.000Z</published>
     <updated>2015-07-23T07:22:25.000Z</updated>
     <content type="html"><![CDATA[
@@ -49,8 +49,8 @@
   
   <entry>
     <title><![CDATA[bbc]]></title>
-    <link href="http://yoursite.com/2015/07/23/bbc/"/>
-    <id>http://yoursite.com/2015/07/23/bbc/</id>
+    <link href="http://www.dophin.me/2015/07/23/bbc/"/>
+    <id>http://www.dophin.me/2015/07/23/bbc/</id>
     <published>2015-07-23T06:54:59.000Z</published>
     <updated>2015-07-23T07:44:56.000Z</updated>
     <content type="html"><![CDATA[<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p>
@@ -63,20 +63,20 @@
     <![CDATA[<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempo]]>
     </summary>
     
-      <category term="Fight" scheme="http://yoursite.com/tags/Fight/"/>
+      <category term="Fight" scheme="http://www.dophin.me/tags/Fight/"/>
     
-      <category term="Injury" scheme="http://yoursite.com/tags/Injury/"/>
+      <category term="Injury" scheme="http://www.dophin.me/tags/Injury/"/>
     
-      <category term="Shocking" scheme="http://yoursite.com/tags/Shocking/"/>
+      <category term="Shocking" scheme="http://www.dophin.me/tags/Shocking/"/>
     
-      <category term="Sports" scheme="http://yoursite.com/categories/Sports/"/>
+      <category term="Sports" scheme="http://www.dophin.me/categories/Sports/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2015/07/23/hello-world/"/>
-    <id>http://yoursite.com/2015/07/23/hello-world/</id>
+    <link href="http://www.dophin.me/2015/07/23/hello-world/"/>
+    <id>http://www.dophin.me/2015/07/23/hello-world/</id>
     <published>2015-07-23T04:06:30.000Z</published>
     <updated>2015-07-23T04:06:30.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
