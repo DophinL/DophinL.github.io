@@ -39,32 +39,35 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.png?v=0.4.4" />
 
 
-<meta name="description" content="前言学cookie的过程中遇到一些问题，看了一些比较好的文章和回答后逐渐理清了。本篇不重复造轮子，我只当个搬运工。
+<meta name="description" content="前言学cookie的过程中遇到一些问题，看了一些比较好的文章和回答后逐渐理清了。
+本篇不重复造轮子，我只当个搬运工。
 cookie的作用与常用操作看了这篇文章后应该就能懂了。
 删除不了cookie怎么办？试了上篇文章删除cookie的方法，是不是发现并没有什么卵用？
 解决方案可参考这里。
 大概就是说：在设置cookie的时候要设置相应的path。
-拿这篇文章举例，进入页面后找到The Cookie">
+举个栗子：戳这里，进入页面后找到The Cooki">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用js操纵cookie">
 <meta property="og:url" content="http://www.dophin.me/2015/08/12/用js操纵cookie/index.html">
 <meta property="og:site_name" content="Dophin's Blog">
-<meta property="og:description" content="前言学cookie的过程中遇到一些问题，看了一些比较好的文章和回答后逐渐理清了。本篇不重复造轮子，我只当个搬运工。
+<meta property="og:description" content="前言学cookie的过程中遇到一些问题，看了一些比较好的文章和回答后逐渐理清了。
+本篇不重复造轮子，我只当个搬运工。
 cookie的作用与常用操作看了这篇文章后应该就能懂了。
 删除不了cookie怎么办？试了上篇文章删除cookie的方法，是不是发现并没有什么卵用？
 解决方案可参考这里。
 大概就是说：在设置cookie的时候要设置相应的path。
-拿这篇文章举例，进入页面后找到The Cookie">
+举个栗子：戳这里，进入页面后找到The Cooki">
 <meta property="og:image" content="http://www.dophin.me/cookie.png">
-<meta property="og:updated_time" content="2015-08-12T09:50:44.000Z">
+<meta property="og:updated_time" content="2015-08-12T10:06:45.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用js操纵cookie">
-<meta name="twitter:description" content="前言学cookie的过程中遇到一些问题，看了一些比较好的文章和回答后逐渐理清了。本篇不重复造轮子，我只当个搬运工。
+<meta name="twitter:description" content="前言学cookie的过程中遇到一些问题，看了一些比较好的文章和回答后逐渐理清了。
+本篇不重复造轮子，我只当个搬运工。
 cookie的作用与常用操作看了这篇文章后应该就能懂了。
 删除不了cookie怎么办？试了上篇文章删除cookie的方法，是不是发现并没有什么卵用？
 解决方案可参考这里。
 大概就是说：在设置cookie的时候要设置相应的path。
-拿这篇文章举例，进入页面后找到The Cookie">
+举个栗子：戳这里，进入页面后找到The Cooki">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -258,12 +261,13 @@ cookie的作用与常用操作看了这篇文章后应该就能懂了。
       
 
       
-        <span itemprop="articleBody"><h2 id="前言">前言</h2><p>学cookie的过程中遇到一些问题，看了一些比较好的文章和回答后逐渐理清了。<br>本篇不重复造轮子，我只当个搬运工。</p>
+        <span itemprop="articleBody"><h2 id="前言">前言</h2><p>学cookie的过程中遇到一些问题，看了一些比较好的文章和回答后逐渐理清了。</p>
+<p>本篇不重复造轮子，我只当个搬运工。</p>
 <h2 id="cookie的作用与常用操作">cookie的作用与常用操作</h2><p>看了<a href="http://www.w3schools.com/js/js_cookies.asp" target="_blank" rel="external">这篇文章</a>后应该就能懂了。</p>
 <h2 id="删除不了cookie怎么办？">删除不了cookie怎么办？</h2><p>试了上篇文章删除cookie的方法，是不是发现并没有什么卵用？</p>
 <p>解决方案可参考<a href="http://stackoverflow.com/questions/5688491/unable-to-delete-cookie-from-javascript" target="_blank" rel="external">这里</a>。</p>
 <p>大概就是说：在设置cookie的时候要设置相应的<code>path</code>。</p>
-<p>拿<a href="http://www.w3schools.com/js/js_cookies.asp" target="_blank" rel="external">这篇文章</a>举例，进入页面后找到<strong><code>The Cookie String</code></strong>，点击<code>Create Cookie 1</code>，在chorme开发者工具下可以看到多出来一条<code>name</code>为<code>firstname</code>的cookie:</p>
+<p>举个栗子：<a href="http://www.w3schools.com/js/js_cookies.asp" target="_blank" rel="external">戳这里</a>，进入页面后找到<strong><code>The Cookie String</code></strong>，点击<code>Create Cookie 1</code>，在chorme开发者工具下可以看到多出来一条<code>name</code>为<code>firstname</code>的cookie:</p>
 <p><img src="cookie.png" alt="新增cookie"></p>
 <p>那么怎么删除这条cookie呢？具体的代码如下：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.cookie = <span class="string">"firstname=; expires=Thu, 01 Jan 1970 00:00:00 UTC ;path=/js"</span>;</span><br></pre></td></tr></table></figure>
