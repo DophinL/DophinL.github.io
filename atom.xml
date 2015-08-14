@@ -5,7 +5,7 @@
   <subtitle><![CDATA[刘宗源的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.dophin.me//"/>
-  <updated>2015-08-13T05:56:00.000Z</updated>
+  <updated>2015-08-14T09:03:35.000Z</updated>
   <id>http://www.dophin.me//</id>
   
   <author>
@@ -16,20 +16,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[日常总结指导]]></title>
+    <link href="http://www.dophin.me/2015/08/14/%E6%97%A5%E5%B8%B8%E6%80%BB%E7%BB%93%E6%8C%87%E5%AF%BC/"/>
+    <id>http://www.dophin.me/2015/08/14/日常总结指导/</id>
+    <published>2015-08-14T08:23:43.000Z</published>
+    <updated>2015-08-14T09:03:35.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>这篇文章是关于我对日常总结的方法的陈述，持续更新。</p>
+<h2 id="具体方法">具体方法</h2><ol>
+<li>计划是否实现？</li>
+<li>查看、分析时间记录软件：<a href="https://app.atimelogger.com/" target="_blank" rel="external">aTimeLogger</a>;<a href="http://baike.baidu.com/link?url=OWfv8oEjA4h9qLEWp3QPOfimRxaVPKAAUSfYW7-InW2utMWyBpR_olEDwaIbVVGaJn--6vmRT9ZlIRBzB6rlz_" target="_blank" rel="external">24PI</a>。</li>
+<li>思考当日大事件。</li>
+<li>思考当日做的不好的地方，如何改进？</li>
+<li>思考学习情况。</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="前言">前言</h2><p>这篇文章是关于我对日常总结的方法的陈述，持续更新。</p>
+<h2 id="具体方法">具体方法</h2><ol>
+<li>计划是否实现？</li>
+<li>查看、分析时间记录软件：<a href="https://app.atimel]]>
+    </summary>
+    
+      <category term="方法" scheme="http://www.dophin.me/tags/%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="方法" scheme="http://www.dophin.me/categories/%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[用js操纵cookie]]></title>
     <link href="http://www.dophin.me/2015/08/12/%E7%94%A8js%E6%93%8D%E7%BA%B5cookie/"/>
     <id>http://www.dophin.me/2015/08/12/用js操纵cookie/</id>
     <published>2015-08-12T09:19:24.000Z</published>
-    <updated>2015-08-13T05:56:00.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="引言">引言</h2><p>如果你只想知道如<strong>何用js操纵cookie</strong>，不用看其它文章了，就看<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie" target="_blank" rel="external">这篇文档(英文)</a>。</p>
-<h2 id="你对删除cookie仍有困惑？">你对删除cookie仍有困惑？</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docCookies.removeItem(name[, path[, domain]])</span><br></pre></td></tr></table></figure>
+    <updated>2015-08-13T05:59:43.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="引言">引言</h2><p>如果你只想知道<strong>如何用js操纵cookie</strong>，不用看其它文章了，就看<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie" target="_blank" rel="external">这篇文档(英文)</a>。</p>
+<h2 id="你对删除cookie仍有困惑？">你对删除cookie仍有困惑？</h2><blockquote>
+<p>docCookies.removeItem(name[, path[, domain]])</p>
+</blockquote>
 <p>你可能困惑于第二三个参数有什么用？</p>
-<p>其实<code>name</code>并不能唯一确定一个<code>cookie</code>，<code>domain</code>、<code>path</code>、<code>cookie</code>三者才能唯一确定一个cookie：</p>
+<p>其实<code>name</code>并不能唯一确定一个cookie，<code>domain</code>、<code>path</code>、<code>cookie</code>三者才能唯一确定一个cookie：</p>
 <p><img src="pic1.png" alt="三个因素确定一个cookie"></p>
 <h2 id="Bonus">Bonus</h2><p>另外推荐一款可以即时编辑cookie的chrome插件,<a href="https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg" target="_blank" rel="external">EditThisCookie</a>,请自行翻墙。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="引言">引言</h2><p>如果你只想知道如<strong>何用js操纵cookie</strong>，不用看其它文章了，就看<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/co]]>
+    <![CDATA[<h2 id="引言">引言</h2><p>如果你只想知道<strong>如何用js操纵cookie</strong>，不用看其它文章了，就看<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/co]]>
     </summary>
     
       <category term="cookie" scheme="http://www.dophin.me/tags/cookie/"/>
@@ -47,13 +77,23 @@
     <link href="http://www.dophin.me/2015/08/10/%E9%87%8D%E5%9B%9E%E5%8E%9F%E7%82%B9/"/>
     <id>http://www.dophin.me/2015/08/10/重回原点/</id>
     <published>2015-08-10T03:41:30.000Z</published>
-    <updated>2015-08-10T03:51:06.000Z</updated>
+    <updated>2015-08-14T08:58:55.000Z</updated>
     <content type="html"><![CDATA[<p>我本科没学到什么东西，非要说的话就是编程的一点皮毛。</p>
 <p>不过到现在，我觉得我的心智在迈向真正的成熟：我的内心达到了前所未有的平和；我更加追求质量，而不仅仅是速度。</p>
 <p>我似乎重回原点，重新思考以前的一切认知。</p>
 <p>我感受到了我的无知。</p>
 <p>我感觉我的脚，这时才踩到地面。</p>
 <p>我需要时间，重新构建我的认知，巩固我的基础。</p>
+<h2 id="后记">后记</h2><hr>
+<h3 id="什么是”重回原点”？">什么是”重回原点”？</h3><p>卸下面子、里子包袱，承认自己无知，开始重新思考以往的认知，仿佛一切从新开始。</p>
+<p>这是因长期积累而到达了一个点、内心自然而然发出的声音。</p>
+<h3 id="寄语">寄语</h3><p>不急不躁，脚踏实地。</p>
+<h3 id="变化">变化</h3><p>重回原点后，和以前相比，发生了哪些变化？</p>
+<ol>
+<li>重新、理性地思考以前的认知。</li>
+<li>觉得自己很无知。</li>
+<li>变得更加温和。</li>
+</ol>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>我本科没学到什么东西，非要说的话就是编程的一点皮毛。</p>
@@ -73,9 +113,9 @@
     <link href="http://www.dophin.me/2015/08/09/%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%93%E6%8C%87%E5%AF%BC/"/>
     <id>http://www.dophin.me/2015/08/09/阶段性总结指导/</id>
     <published>2015-08-09T04:38:25.000Z</published>
-    <updated>2015-08-09T05:36:01.000Z</updated>
+    <updated>2015-08-14T08:26:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>这篇文章是关于我对阶段性总结的方法的陈述，持续更新。</p>
-<h2 id="回顾方式">回顾方式</h2><p>通过 数字+照片+日记 回顾</p>
+<h2 id="回顾方式">回顾方式</h2><p>数据+照片+日记</p>
 <h2 id="具体方法">具体方法</h2><ol>
 <li>计划是否实现？</li>
 <li>现状总结，未来要怎样做以达到更好的状态？</li>
@@ -92,12 +132,15 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<h2 id="前言">前言</h2><p>这篇文章是关于我对阶段性总结的方法的陈述，持续更新。</p>
-<h2 id="回顾方式">回顾方式</h2><p>通过 数字+照片+日记 回顾</p>
+<h2 id="回顾方式">回顾方式</h2><p>数据+照片+日记</p>
 <h2 id="具体方法">具体方法</h2><ol>
-<li>计划是否实现？</l]]>
+<li>计划是否实现？</li>
+<li]]>
     </summary>
     
       <category term="方法" scheme="http://www.dophin.me/tags/%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="方法" scheme="http://www.dophin.me/categories/%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -106,7 +149,7 @@
     <link href="http://www.dophin.me/2015/08/07/%E5%A4%A7%E7%90%86%E5%9B%9B%E6%97%A5%E7%8B%AC%E6%B8%B8-%E6%80%BB%E7%BB%93/"/>
     <id>http://www.dophin.me/2015/08/07/大理四日独游-总结/</id>
     <published>2015-08-07T14:10:25.000Z</published>
-    <updated>2015-08-12T03:35:08.000Z</updated>
+    <updated>2015-08-13T06:02:22.000Z</updated>
     <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>这篇文章是关于本次旅行（2015.08.03-2015.08.07大理四日独游）的一些思考。<br>想看游记(图文)请点<a href="http://chanyouji.com/trips/306137" target="_blank" rel="external">这里</a>。</p>
 <h2 id="感受">感受</h2><p>总得来说这次旅行是<strong>正的</strong>。</p>
 <p>正在于：</p>
@@ -158,6 +201,8 @@
     
       <category term="旅行" scheme="http://www.dophin.me/tags/%E6%97%85%E8%A1%8C/"/>
     
+      <category term="思悟" scheme="http://www.dophin.me/categories/%E6%80%9D%E6%82%9F/"/>
+    
   </entry>
   
   <entry>
@@ -165,7 +210,7 @@
     <link href="http://www.dophin.me/2015/08/04/%E9%98%BF%E9%87%8C%E4%BA%8C%E9%9D%A2%E7%9A%84%E5%B0%8F%E6%8F%92%E6%9B%B2/"/>
     <id>http://www.dophin.me/2015/08/04/阿里二面的小插曲/</id>
     <published>2015-08-04T04:00:20.000Z</published>
-    <updated>2015-08-04T09:15:19.000Z</updated>
+    <updated>2015-08-13T06:03:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>本篇的核心目的在于通过我的二面经历，总结出一些普适性的、好的思想，不仅仅针对于面试。<br>为了方便，以下<code>一面面试官</code>称为<code>A</code>，<code>二面面试官</code>称为<code>B</code>。</p>
 <h2 id="铺垫">铺垫</h2><p>15年7月份阿里开启校招，我幸运地拿到了内推资格。</p>
 <p>一开始非常不自信，因为按我原先的估计，至少还要再准备3个月才可能达到BAT的要求。</p>
@@ -203,6 +248,8 @@
     
       <category term="求职" scheme="http://www.dophin.me/tags/%E6%B1%82%E8%81%8C/"/>
     
+      <category term="思悟" scheme="http://www.dophin.me/categories/%E6%80%9D%E6%82%9F/"/>
+    
   </entry>
   
   <entry>
@@ -210,7 +257,7 @@
     <link href="http://www.dophin.me/2015/07/26/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%8E%BB%E6%B4%B1%E6%B5%B7%E7%8B%AC%E6%B8%B8%EF%BC%9F/"/>
     <id>http://www.dophin.me/2015/07/26/为什么要去洱海独游？/</id>
     <published>2015-07-26T02:39:32.000Z</published>
-    <updated>2015-07-26T02:45:29.000Z</updated>
+    <updated>2015-08-13T06:01:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="初衷">初衷</h2><p>3月份进入抱团创业营，5月份退出。<br>我没有给自己空隙，退出团队后，去知乎面试了一次，没有过。面试官告诉我基础不够扎实。于是准备了一个月，然而并没有再给我面试的机会。<br>又过了一个月，恰逢阿里校招，莫名其妙得到了内推机会，一开始可以说完全没有自信，但过了一面之后开始变得雄心勃勃，然而二面却再次碰壁。<br>这几个月真的是没消停。身体也疲惫了，心也疲惫了。<br>所以这次旅行的目的是放松身心，并且总结这一个阶段。</p>
 <h2 id="为什么去洱海">为什么去洱海</h2><p>之前看《心花怒放》的时候埋下一颗种子。<br>洱海给人一种清净的感觉，我想这有助于思考。</p>
 <h2 id="为什么独游">为什么独游</h2><p>跟朋友出去旅行仅是为了玩乐，思考空间很少，如果不独游有背我的目的。</p>
@@ -221,6 +268,8 @@
     
       <category term="旅行" scheme="http://www.dophin.me/tags/%E6%97%85%E8%A1%8C/"/>
     
+      <category term="思悟" scheme="http://www.dophin.me/categories/%E6%80%9D%E6%82%9F/"/>
+    
   </entry>
   
   <entry>
@@ -228,7 +277,7 @@
     <link href="http://www.dophin.me/2015/07/25/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
     <id>http://www.dophin.me/2015/07/25/为什么要写博客/</id>
     <published>2015-07-25T10:23:22.000Z</published>
-    <updated>2015-08-06T08:19:12.000Z</updated>
+    <updated>2015-08-13T06:01:05.000Z</updated>
     <content type="html"><![CDATA[<h2 id="初衷">初衷</h2><p>把自己的实践经验以及思考梳理出来，分享给需要的人。<br>梳理和分享同样重要。</p>
 <h2 id="副产品">副产品</h2><p><code>2015.08.06</code> 参考自<a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank" rel="external">读立写生的知乎专栏</a><br>积累更多知识<br>提高将事情讲清楚的能力<br>帮你找到志同道合的人<br>记录成长<br>培养持续做一件事情的能力<br>讨论反思<br>互联网的身份识别</p>
 ]]></content>
@@ -238,6 +287,8 @@
     </summary>
     
       <category term="写作" scheme="http://www.dophin.me/tags/%E5%86%99%E4%BD%9C/"/>
+    
+      <category term="思悟" scheme="http://www.dophin.me/categories/%E6%80%9D%E6%82%9F/"/>
     
   </entry>
   
