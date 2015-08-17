@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.dophin.me/resume/index.html</loc>
+    <lastmod>2015-08-17T01:52:12.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.dophin.me/2015/08/14/%E6%97%A5%E5%B8%B8%E6%80%BB%E7%BB%93%E6%8C%87%E5%AF%BC/</loc>
     <lastmod>2015-08-16T16:44:29.000Z</lastmod>
   </url>
@@ -39,11 +44,6 @@
   <url>
     <loc>http://www.dophin.me/2015/08/12/%E7%94%A8js%E6%93%8D%E7%BA%B5cookie/</loc>
     <lastmod>2015-08-13T05:59:43.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.dophin.me/resume/index.html</loc>
-    <lastmod>2015-08-12T03:34:09.000Z</lastmod>
   </url>
   
   <url>
