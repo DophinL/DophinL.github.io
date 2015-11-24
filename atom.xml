@@ -5,7 +5,7 @@
   <subtitle><![CDATA[刘宗源的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.dophin.me//"/>
-  <updated>2015-09-03T14:27:39.000Z</updated>
+  <updated>2015-11-24T15:53:23.000Z</updated>
   <id>http://www.dophin.me//</id>
   
   <author>
@@ -14,6 +14,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[网易实习一个月总结]]></title>
+    <link href="http://www.dophin.me/2015/11/24/%E7%BD%91%E6%98%93%E5%AE%9E%E4%B9%A0%E4%B8%80%E4%B8%AA%E6%9C%88%E6%80%BB%E7%BB%93/"/>
+    <id>http://www.dophin.me/2015/11/24/网易实习一个月总结/</id>
+    <published>2015-11-24T15:53:23.000Z</published>
+    <updated>2015-11-24T15:53:23.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="概括">概括</h1><ul>
+<li>周一到周六上班、学习；</li>
+<li>基本上每周出去玩一次；</li>
+<li>活动范围比较狭窄，日常都在公司里；</li>
+<li>没有结交部门外的新朋友，打台球、乒乓球、桌面足球等有机会认识新朋友，但是我内心的想法是如果没有多次见面还是不要主动问联系方式</li>
+<li>来这边之后睡得还是挺晚，一般都在12点以后睡；</li>
+<li>从上周开始健身，打算隔一天健一次，或者打羽毛球。</li>
+</ul>
+<h1 id="What’s_new">What’s new</h1><ol>
+<li>一种新的开发方式</li>
+<li>构建工具</li>
+<li>新的编辑器</li>
+<li>less</li>
+</ol>
+<h1 id="计划管理">计划管理</h1><p>这个月没有做计划。任务都是上面分配的。前三周几乎每晚抽不出时间（或者说没有意识去抽）做课外学习，但感觉很焦虑，因为感觉业务上的学习不能满足我。现在好多了，每天都能抽一部分时间学习，一方面是因为基本熟悉了开发流程，做起来比较快了，另一方面是任务分配的不多，还有个重要原因是我明白重构是要分情况的，比如说代码级别的复用必要性不大，所以就不花时间重构，但组件级别的如果考虑到以后可能有业务上的需求，还是会重构。但是做得还不够好，我重构的其中一个组件依赖于jquery，我希望能减少依赖。</p>
+<h1 id="时间管理：aTimeLogger;24PI">时间管理：<a href="https://app.atimelogger.com/" target="_blank" rel="external">aTimeLogger</a>;<a href="http://baike.baidu.com/link?url=OWfv8oEjA4h9qLEWp3QPOfimRxaVPKAAUSfYW7-InW2utMWyBpR_olEDwaIbVVGaJn--6vmRT9ZlIRBzB6rlz_" target="_blank" rel="external">24PI</a></h1><p>这个月弃用了。本来打算看书时间记录在aTimeLogger上，发现不靠谱啊，我现在要回顾多么麻烦，记在云笔记上吧~然后我真的不想用它来记录专业上的学习时间了，之前试过，但是很投入，有时候下来休息时会忘记暂停记录，这样时间就会出现误差，这毛病老犯，但这种状态也蛮好的，所以弃了。<br>对于24PI，没有月时间统计，所以几乎没有什么卵用。</p>
+<h1 id="现状总结">现状总结</h1><h2 id="学习">学习</h2><p>除了工作之外，只有晚上的时间能学习。按现在的情况，大概每晚7.30之后有时间做自己的事情。要学得太多了，简单说几个：regular、git、js基础（尤其dom）、css3、ES5、ES6、系统性的兼容方案、构建工具、单元测试。那么如何利用起早上的时间，真是需要毅力…最好能定计划在5点左右完成，剩下的时间可以继续做做业务上的事情。</p>
+<h2 id="健康">健康</h2><p>开头说了</p>
+<h2 id="爱好">爱好</h2><p>除了运动，暂停了其他业余爱好，等实习期过了再考虑。</p>
+<h2 id="娱乐">娱乐</h2><p>周末出去玩一天，会逐渐拓展到上海。等张楠来了可以玩桌游。</p>
+<h2 id="亲情">亲情</h2><p>每周会给家里人、婆婆打电话。</p>
+<h2 id="社交">社交</h2><p>开头说了一部分。跟室友几乎没怎么见过面，因为我很少回去得早；同事的话相处都还不错，比如锐哥很耐心，斌哥很专注，子龙很憨厚、稳重，娟姐很热心。</p>
+<h2 id="其它">其它</h2><p>强化了一些思维：</p>
+<ol>
+<li>接口式思维，比如说编码时先想我要怎样调用比较自然，然后再考虑实现。</li>
+<li>灵活，反脆弱，比如说css的IE兼容，如果是以前我可能会找个框架，但是现在会基于项目的情景思考，CPP对兼容要求不高，于是我就直接CSS hack。</li>
+</ol>
+<h1 id="提出一些问题">提出一些问题</h1><h2 id="印象最深刻的话">印象最深刻的话</h2><blockquote><p>Talk is cheap,show me your code.</p>
+<footer><strong>Linus Torvalds</strong></footer></blockquote>
+<h2 id="最喜欢的产品">最喜欢的产品</h2><p>送给<a href="http://www.iconfont.cn" target="_blank" rel="external">iconfont</a>。</p>
+<h2 id="最大的成就">最大的成就</h2><p>反脆性强化。</p>
+<h2 id="最开心的事">最开心的事</h2><p>有两个吧，一个是不知道怎么回事被亮哥招到了教育产品部。<br>还有个是被海波大大认可了，虽然不是啥大不了的事，但心里还是美滋滋的。</p>
+<h1 id="目标">目标</h1><ol>
+<li>深入了解git，优化构建流程。</li>
+<li>每天下午5点之前完成任务，剩下的一些时间可以重构、优化、组件化。</li>
+<li>每日做计划</li>
+<li>抽时间完成「临时」</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="概括">概括</h1><ul>
+<li>周一到周六上班、学习；</li>
+<li>基本上每周出去玩一次；</li>
+<li>活动范围比较狭窄，日常都在公司里；</li>
+<li>没有结交部门外的新朋友，打台球、乒乓球、桌面足球等有机会认识新朋友，但是我内心的想法是]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[拿到网易offer--总结]]></title>
@@ -133,7 +188,7 @@
     <link href="http://www.dophin.me/2015/08/14/%E6%97%A5%E5%B8%B8%E6%80%BB%E7%BB%93%E6%8C%87%E5%AF%BC/"/>
     <id>http://www.dophin.me/2015/08/14/日常总结指导/</id>
     <published>2015-08-14T08:23:43.000Z</published>
-    <updated>2015-09-29T02:34:44.000Z</updated>
+    <updated>2015-10-12T02:54:00.000Z</updated>
     <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>这篇文章是关于我对日常总结的方法的陈述，持续更新。</p>
 <h2 id="总结原则">总结原则</h2><ol>
 <li>不要超过自己的经历来做总结。</li>
@@ -145,7 +200,7 @@
 <li>经过</li>
 </ul>
 </li>
-<li>查看、分析时间记录软件：<a href="https://app.atimelogger.com/" target="_blank" rel="external">aTimeLogger</a>;<a href="http://baike.baidu.com/link?url=OWfv8oEjA4h9qLEWp3QPOfimRxaVPKAAUSfYW7-InW2utMWyBpR_olEDwaIbVVGaJn--6vmRT9ZlIRBzB6rlz_" target="_blank" rel="external">24PI</a>。</li>
+<li>查看、分析时间记录软件：<a href="https://app.atimelogger.com/" target="_blank" rel="external">aTimeLogger</a>;<a href="http://baike.baidu.com/link?url=OWfv8oEjA4h9qLEWp3QPOfimRxaVPKAAUSfYW7-InW2utMWyBpR_olEDwaIbVVGaJn--6vmRT9ZlIRBzB6rlz_" target="_blank" rel="external">24PI</a>;dailycost。</li>
 <li>该做的是否做了？（任务管理）<ul>
 <li>完成的做的怎么样？</li>
 <li>什么没完成？为什么？如何改进？</li>
